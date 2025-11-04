@@ -1,32 +1,12 @@
 ---
 layout: page
-title: About the Purelog Theme
+title: About the Blog
 permalink: /about/
 ---
 
-**Purelog** is a responsive, sidebar theme for the popular JAMstack generator Jekyll that only uses the minimal [**Pure.css** framework](https://github.com/pure-css/pure) (hence the name!), while still following the best practices possible for accessibility and search-engine optimization.
 
-I created this after finishing [Watery](https://github.com/brennanbrown/watery) (which this theme is built off of), as a way to add more functionality and design while still remaining as lightweight as possible.
+The focus of this blog is to provide step-by-step documentation of my self-study, practice, learning, and general experiences as I work on pursuing a career in cybersecurity. For some background, I have no traditional experience in cybersecurity or IT, but became interested in the field while working as an Army SIGINT officer. That exposure really hooked me on finding a way to work in the industry, and I started small with a few CompTIA certs to see if I was truly willing to stick with the amount of effort such a career transition would require. After A+, Network+, Security+, and CySA+, I could definitively say I was even more excited than my initial interest; I feel like each step snowballed and encouraged me to want to learn more and more... and more. I followed those certs up with the CCNA, which I found really fun and significantly more valuable as far as actually becoming familiar with networking than any of the CompTIA certs. Next, I jumped into SANS SEC504 and GIAC GCIH, which was great (shoutout to Joshua Wright for the awesome work he did with designing the course!). GCIH, which had at least one module per section highlighting cloud attacks and how to mitigate them, sparked some interest in cloud security. I'm still trying to work out if I can learn enough over the next year and a half to find a place in cloudsec straight out of the Army.
 
-This project is aimed towards those looking for an interesting theme for Jekyll that has features that aren't found commonly elsewhere, which I'll list down below.
+The above essentially amounts to what I felt was a decent baseline and took roughly a year. Moving forward, I am planning on getting far more hands-on (hopefully spending a lot less time on certs that sometimes feel like nothing more than vocab test) in favor of homelabbing, coding, and breaking stuff.
 
-### Features
-
-Here are a few interesting features of this Jekyll theme:
-
-- A fully customizable and empty `_BLANK_config.yml` to make getting up-and-running easy.
-- A speedy, on-site search function using [Simply Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search).
-- Custom collections for different types of material (note-taking, journal writing, etc.)
-- An auto-generating archive page that displays all entries from _all_ collections.
-- Having a `_pages` collection for easier organization.
-- An author bio at the end of each post. (Located in `_inclues/author.html`)
-- Full Rouge support for syntax highlighting. (Currently using `base16.solarized.light`)
-- Auto-generated RSS feed, sitemap, accessibility features, and search-engine optimization.
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+I am hoping this blog is helpful to anyone else coming from a similar position, especially transitioning servicemembers. Everything done here (from homelab-type stuff to my Python code) will almost definetely have been done better by someone else. However, the purpose is to learn, experiment, and improve, rather than create anything novel. 

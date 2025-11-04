@@ -1,8 +1,9 @@
 _site/
+sandbox/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
+vendor/
 .DS_Store
 /.bundle/
 /*.gem
