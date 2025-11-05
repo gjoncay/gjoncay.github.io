@@ -37,7 +37,7 @@ sudo virsh net-destroy 05NOV_Network
 ```
 
 
-I ran into some initial issues with permissions and ensuring the VM management stack could function properly. After some StackOverflow, Google, and ChatGPT trouble shoorint, I ran the following:
+I ran into some initial issues with permissions and ensuring the VM management stack could function properly. After some StackOverflow, Google, and ChatGPT trouble shooting, I ran the following:
 
 ```
 sudo mkdir -p /var/lib/libvirt/boot
