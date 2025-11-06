@@ -27,7 +27,8 @@ def get_file_report(file_hash):
     final_url = template_url.replace("{id}", file_hash)
     response = requests.get(final_url, headers=headers)
     response.raise_for_status()
-    print(response.json())
+    return response.json()
 
-get_file_report("158c0607af02d9fe9331faa9cabf5d39")
+data = get_file_report("158c0607af02d9fe9331faa9cabf5d39")
+pp.pprint(data)
 ```
