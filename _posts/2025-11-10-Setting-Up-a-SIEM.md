@@ -52,6 +52,7 @@ sudo ss -tulnp | grep node
 Which returned "node" listening on port 443.
 
 On the desktop VM, I could now connect to the dashboard at the private IPv4 of the Ubuntu server.
+
 ![Wazuh Login](assets/img/wazuh_login.png)
 
 Though I read online that creds would be admin/admin... that was not the case. I am not sure if something has changed with Wazuh initial config and installation, but I was able to eventually login thanks to [this reddit post](https://www.reddit.com/r/Wazuh/comments/utfk8l/whats_the_default_login_id_password_for_the/). In short, I had to extract the wazug tarball then cat wazuh-passwords.txt, which was located inside and provided a randomly generated password for the dashboard (as well as various other users for tasks within Wazuh).
