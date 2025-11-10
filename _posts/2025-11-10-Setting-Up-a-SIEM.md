@@ -57,4 +57,5 @@ On the desktop VM, I could now connect to the dashboard at the private IPv4 of t
 Though I read online that creds would be admin/admin... that was not the case. I am not sure if something has changed with Wazuh initial config and installation, but I was able to eventually login thanks to [this reddit post](https://www.reddit.com/r/Wazuh/comments/utfk8l/whats_the_default_login_id_password_for_the/). In short, I had to extract the wazug tarball then cat wazuh-passwords.txt, which was located inside and provided a randomly generated password for the dashboard (as well as various other users for tasks within Wazuh).
 
 Once logged in, I was able to see the dash and check out the GUI for the first time! Overall set up was not bad at all, and I'm looking forward to installing other agents on endpoints in the lab.
+
 ![Wazuh Dashboard](assets/img/wazuh_dash.png)
