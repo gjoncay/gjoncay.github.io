@@ -33,6 +33,8 @@ Everything looked good on the machine installing the agent at that point.
 
 ![Wazuh Agent Setup](assets/img/agent-2.png)
 
+
+## Verifying on the Dashboard
 I then moved over the the desktop environment that will be used to monitor the network, and confirmed that the agent installed on 'ubuntu1' was correctly registered and sending telemetry to the SIEM. I think my next steps will be to install an additional agent on the other ubuntu machine as well as segment the network so that it better reflects a live environment.
 
 ![Wazuh Dashboard](assets/img/agent-3.png)
