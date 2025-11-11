@@ -1,5 +1,5 @@
 ---
-title: "November 6th, 2025"
+title: "November 11th, 2025"
 author: Grant Oncay
 ---
 
