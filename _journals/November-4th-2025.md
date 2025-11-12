@@ -1,6 +1,8 @@
 ---
 title: "November 4th, 2025"
 author: Grant Oncay
+tags:
+  - Homelab
 ---
 
 Well, here we go. It seems like I've worked out most of the kinks as far as setting up this blog on both the GitHub and Jekyll side. For a new Linux user, it was kind of a pain. I had to bounce around the theme file I cloned and determine what actually should be edited... and what should not. In other words, I learned my lesson regarding _site being wiped and recreated.

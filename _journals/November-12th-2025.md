@@ -1,6 +1,8 @@
 ---
 title: "November 12th, 2025"
 author: Grant Oncay
+tags:
+  - Python
 ---
 
 I'm still trying to get as much daily practice with Python as I can. Angela Yu's 100 Days of Python on Udemy is a great course. However, a lot of the projects are broken; for example, some of the web scraping targets are paywalled or no longer have valid URLs. As such, I've tried to incorporate the same concepts into personal projects but with content I am more interested in.

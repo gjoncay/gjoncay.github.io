@@ -1,6 +1,8 @@
 ---
 title: "November 11th, 2025"
 author: Grant Oncay
+tags:
+  - Homelab
 ---
 
 

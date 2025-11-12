@@ -1,6 +1,8 @@
 ---
 title: "November 5th, 2025"
 author: Grant Oncay
+tags:
+  - Python
 ---
 
 
