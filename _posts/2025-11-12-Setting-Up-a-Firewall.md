@@ -14,6 +14,8 @@ I downloaded the iso from [pfsense.org](https://www.pfsense.org/download/). I ha
 
 The file was bundled in a .gz, so I `gunzip`'d it. 
 
+## Creating the VM
+
 Next, I created a new VM with the pfsense iso. Importantly, I attached it to both the existing network and added a NIC connected to a new isolated network.
 
 ![Isolated Network](assets/img/iso_network_creation.png)
@@ -27,6 +29,8 @@ After that, pfSense prompted me to install the community edition, which took a c
 ![pfSense Installation](assets/img/pfsense_loading.png)
 
 After the machine finished loading, I rebooted it to finish the installation process.
+
+## Network Configuration
 
 At the main menu, I selected 14 to enable ssh and then pinged `8.8.8.8` to verify connectivity.
 
@@ -58,6 +62,6 @@ With fingers crossed, I again attempted to log into the pfSense GUI at http://19
 
 ![GUI Login](assets/img/GUI_login.png)
 
-With that, I'm going to wrap up this post. I didn't end up documenting all the trouble shooting that went in to reconfiguring the networks and ensuring I could access the GUI from the LAN because it was mostly me making mistakes/typos/etc... but what's new.
+With that, I'm going to wrap up this post. I didn't end up documenting all the trouble shooting that went in to reconfiguring the networks and ensuring I could access the GUI from the LAN because it was mostly me making mistakes/typos/etc... but what's new?
 
 I'll continue this series with further configuration on the pfSense machine and adjustments to the network architecture to better emulate a real environment.
