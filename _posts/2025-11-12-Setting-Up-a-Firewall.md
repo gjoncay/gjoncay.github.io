@@ -32,8 +32,7 @@ At the main menu, I selected 14 to enable ssh and then pinged `8.8.8.8` to verif
 
 I then shut down both the Wazuh server and the Ubuntu desktop machine I was using to monitor the dashboard and migrated them to the isolated network.
 
-![Moving Networks]((assets/img/network_move.png)
-)
+![Moving Networks](assets/img/network_move.png)
 
 Now, although I set the network itself on the VM manager to 192.168.200.0/24, pfSense defaulted to 192.168.1.0/24. To fix this, I used the pfSense GUI accessed via my Ubuntu desktop VM to change the network address on the LAN interface to 192.168.200.1/24.
 
