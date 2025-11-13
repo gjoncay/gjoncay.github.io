@@ -24,8 +24,7 @@ I then booted up the pfSense VM and began the installation process. I made sure 
 
 After that, pfSense prompted me to install the community edition, which took a couple minutes.
 
-![pfSense Installation]((assets/img/pfsense_loading.png)
-)
+![pfSense Installation](assets/img/pfsense_loading.png)
 
 After the machine finished loading, I rebooted it to finish the installation process.
 
