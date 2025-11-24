@@ -89,4 +89,4 @@ After passing the AWS Solutions Architect Associate exam, I am absolutely done w
 
 
 
-Big thanks to Katie Nickels, John Stoner, Andy Piazza, and others, whose blogs and write-ups assisted in creating this plan and finding the required/recommended resources.
+Big thanks to Katie Nickels, John Stoner, Andy Piazza, and others, whose blogs and write-ups assisted in creating this journal and finding the required/recommended resources.
