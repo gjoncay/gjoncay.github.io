@@ -20,7 +20,15 @@ I first attempted to simply mirror traffic to a second NIC on a Security Onion m
 
 After trying several methods and doing a lot of troubleshooting, I gave both VirtualBox and VMWare a go, but again, did not have any luck in getting traffic to mirror. Furthermore, trying to reconifigure almost everything I had already done was super frustrating.
 
-I ended up coming back to KVM/QEMU and finding a resolution with a second attempt using Open vSwitch. First, I pinned each VM's NIC to a <target dev=' '> entry in its XML config to prevent the generation of random vnetX interfaces. Then, I ran ```ip link | grep tap-``` to ensure that each host had visibility on the pinned interfaces. I cleared out some old mirror objects leftover from previous troubleshooting with ```sudo ovs-vsctl clear bridhe br0 mirrors``` to start cleanly.
+I ended up coming back to KVM/QEMU and finding a resolution with a second attempt using Open vSwitch. First, I pinned each VM's NIC to a <target dev=' '> entry in its XML config to prevent the generation of random vnetX interfaces. Then, I ran 
+```
+ip link | grep tap-
+```
+ to ensure that each host had visibility on the pinned interfaces. I cleared out some old mirror objects leftover from previous troubleshooting with 
+ ```
+ sudo ovs-vsctl clear bridhe br0 mirrors
+ ```
+to start cleanly.
 
 Next, I made a persistent mirror with:
 ```
