@@ -26,4 +26,14 @@ I ran several of the tests, and navigated back to the alerts tab on SO. Everythi
 
 Finally, though alerts are triggering (and they have PCAP files from the standalone in their metadata), the SO GUI is still showing "incomplete" on the PCAP dash, preventing me from analyzing full packet data. Additionally, under "Grid", the standalone sensor is tagged as pending.
 
+To resolve this, I consulted the SO documentation and found that single-node setups can cause the status to remain at "pending" as there is nowhere for Elastic endpoint replica logs to exist. To fix this, I ran:
+```
+sudo so-elasticsearch-query _cat/shards | grep UN
+```
+This revealed unassigned shards. I then ran:
+```
+sudo so-elasticsearch-query $index/_settings -d '{"number_of_replicas":0}' -XPUT
+```
+This stopped SO from attempting to use replicas. The status of the sensor on the grid page changed to "OK" shortly thereafter.
+
 More troubleshooting to follow!
